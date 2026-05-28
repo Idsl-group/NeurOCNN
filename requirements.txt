@@ -1,0 +1,9 @@
+matplotlib==3.10.7
+mne==1.11.0
+numpy==2.2.6
+scikit-learn==1.7.2
+scipy==1.15.3
+torch --index-url https://download.pytorch.org/whl/cu126
+git+https://github.com/patrick-kidger/torchcubicspline.git
+torchsde==0.2.6
+torchvision --index-url https://download.pytorch.org/whl/cu126torchcde==0.2.5
