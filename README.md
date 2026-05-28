@@ -2,7 +2,7 @@
 
 NeurOCNN is a neural-operator-inspired architecture for physiological time-series classification under sampling-rate shifts. The model combines spline-parameterized continuous-time convolutions for local morphology extraction with a Fourier projection/pooling interface for fixed-dimensional physical-time representation learning. This design allows the model to be trained at one sampling rate and evaluated zero-shot at unseen sampling rates without redefining the architecture.
 
-> This work has been accepted at the International Conference on Machine Learning (ICML), 2026.
+This work has been accepted at the International Conference on Machine Learning (ICML), 2026.
 
 ## Project Structure
 
