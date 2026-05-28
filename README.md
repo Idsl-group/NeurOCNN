@@ -1,11 +1,11 @@
-# Code for NeurOCNN Paper
+# [ICML 2026] NeurOCNN: A Neural-Operator-Based Model for Physiological Time Series
 
-This repository contains the code for the NeurOCNN paper (Submitted to ICML 2026).
+NeurOCNN is a neural-operator-inspired architecture for physiological time-series classification under sampling-rate shifts. The model combines spline-parameterized continuous-time convolutions for local morphology extraction with a Fourier projection/pooling interface for fixed-dimensional physical-time representation learning. This design allows the model to be trained at one sampling rate and evaluated zero-shot at unseen sampling rates without redefining the architecture.
 
 ## Project Structure
 
 - `data_loaders/`: Data loading utilities.
-- `models/`: Model definitions (e.g., FNO).
+- `models/`: Model definitions (e.g., NeurOCNN, FNO etc.).
 - `preprocessed_data/`: Directory for preprocessed data.
 - `training/`: Training utilities and loops.
 - `utils/`: General utility functions.
